@@ -47,6 +47,10 @@ Used Claude Code (AI Agent mode) to investigate bugs, refactor logic from `app.p
 
 ![Pytest Results](Screenshot%202026-03-19%20220332.png)
 
+**Test cases:**
+
+![Test Cases](Test%20Cases.png)
+
 **Fixed game — correct "Go LOWER!" hint (guess 40, secret 35):**
 
 ![Game Demo - Go Lower](Screenshot%202026-03-19%20220440.png)
