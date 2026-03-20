@@ -51,6 +51,7 @@ I used Claude Code (AI assistant) throughout Phase 2 to help investigate and fix
 **What the AI got wrong (or needed correction):**
 - In an early fix attempt, the AI only removed the even/odd branching that converted the secret to a string, but did not catch that the Higher/Lower labels were also swapped. The hint was still wrong after the first fix — I had to retest in the browser and ask again
 - The AI initially suggested the issue was only the type mismatch (int vs string), missing the deeper label reversal bug. This required a second round of investigation
+- When adding screenshots to README.md, the AI assigned the wrong descriptions to the wrong images without actually checking what each screenshot contained. I caught the mismatch by comparing the descriptions to the actual pictures, rejected the incorrect labels, and asked the AI to read each image before writing the descriptions. This is a good example of not blindly trusting AI output — I verified the result myself before accepting it
 
 ---
 
