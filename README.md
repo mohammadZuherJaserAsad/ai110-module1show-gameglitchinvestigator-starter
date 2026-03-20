@@ -43,11 +43,11 @@ Used Claude Code (AI Agent mode) to investigate bugs, refactor logic from `app.p
 
 ## 📸 Demo
 
-**pytest results (3 tests passing):**
+**Terminal output — pytest run showing all 3 tests passing:**
 
 ![Pytest Results](Screenshot%202026-03-19%20220332.png)
 
-**Test cases:**
+**Test cases written in test_game_logic.py targeting the hint logic bug:**
 
 ![Test Cases](Test%20Cases.png)
 
