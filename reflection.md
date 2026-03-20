@@ -33,7 +33,7 @@ I also removed a broken fallback that used string comparison (`g > secret`), whi
 The attempts increment was placed correctly inside the `if submit:` block, so it only runs on a button click. I added a comment to clarify this so future readers understand it is intentional.
 
 ### Bug 3 – Game Reset
-The `New Game` button only reset `attempts` and `secret`. Score, status, and history carried over from the previous session. I marked this with a FIXME comment to document the issue for future fixing.
+The `New Game` button only reset `attempts` and `secret`. Score, status, and history carried over from the previous session. I fixed this by adding a full reset inside the `if new_game:` block, and added a FIXME + FIX comment pair to document what was changed and why.
 
 ---
 
