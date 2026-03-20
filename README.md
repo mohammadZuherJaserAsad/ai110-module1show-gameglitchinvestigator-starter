@@ -43,21 +43,21 @@ Used Claude Code (AI Agent mode) to investigate bugs, refactor logic from `app.p
 
 ## 📸 Demo
 
-**Terminal output — pytest run showing all 3 tests passing:**
-
-![Pytest Results](Screenshot%202026-03-19%20220332.png)
-
-**Test cases written in test_game_logic.py targeting the hint logic bug:**
-
-![Test Cases](Test%20Cases.png)
-
 **Fixed game — correct "Go LOWER!" hint (guess 40, secret 35):**
 
-![Game Demo - Go Lower](Screenshot%202026-03-19%20220440.png)
+![Game Demo - Go Lower](Screenshot%202026-03-19%20220332.png)
 
-**Fixed game — correct "Go HIGHER!" hint (guess 30, secret 35) and win screen:**
+**Fixed game — correct "Go HIGHER!" hint (guess 30, secret 35):**
 
-![Game Demo - Go Higher and Win](Screenshot%202026-03-19%20220532.png)
+![Game Demo - Go Higher](Screenshot%202026-03-19%20220440.png)
+
+**Fixed game — win screen after guessing the correct number:**
+
+![Game Demo - Win Screen](Screenshot%202026-03-19%20220532.png)
+
+**pytest terminal — all 3 tests passing after fixing hint logic:**
+
+![Pytest Results](Test%20Cases.png)
 
 ## 🚀 Stretch Features
 
