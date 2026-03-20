@@ -42,7 +42,7 @@ def check_guess(guess, secret):
         return "Win", "🎉 Correct!"
 
     # FIXME: Hint logic was reversed here — guess > secret was returning "Go HIGHER!" instead of "Go LOWER!"
-    # FIX: Corrected high/low comparison after manual testing and AI review
+    # FIX: Refactored check_guess into logic_utils.py using AI Agent mode — corrected high/low label swap after manual testing
     if guess > secret:
         return "Too High", "📉 Go LOWER!"
     else:

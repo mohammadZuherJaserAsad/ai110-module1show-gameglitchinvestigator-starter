@@ -37,7 +37,7 @@ The `New Game` button only reset `attempts` and `secret`. Score, status, and his
 
 ---
 
-## How I Used AI
+## 2. How did you use AI as a teammate?
 
 I used Claude Code (AI assistant) throughout Phase 2 to help investigate and fix the bugs.
 
@@ -54,7 +54,7 @@ I used Claude Code (AI assistant) throughout Phase 2 to help investigate and fix
 
 ---
 
-## How I Tested and Verified the Fixes
+## 3. Debugging and testing your fixes
 
 ### Manual testing in the browser (Streamlit)
 - Ran `streamlit run app.py` and played several rounds

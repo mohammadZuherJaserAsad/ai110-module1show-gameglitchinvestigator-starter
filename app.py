@@ -71,7 +71,7 @@ with col3:
 
 if new_game:
     # FIXME: Reset was only updating attempts and secret, leaving score/status/history from the old game
-    # FIX: Reset game state properly when starting a new game
+    # FIX: Identified via AI review — reset game state properly when starting a new game
     st.session_state.attempts = 0
     st.session_state.secret = random.randint(1, 100)
     st.success("New game started.")
@@ -86,7 +86,7 @@ if st.session_state.status != "playing":
 
 if submit:
     # FIXME: Attempts were being incremented on every rerun, not just on valid submissions
-    # FIX: Corrected attempts update so it increases once per submit click only
+    # FIX: Confirmed with AI — attempts now increment only inside the submit block
     st.session_state.attempts += 1
 
     ok, guess_int, err = parse_guess(raw_guess)
